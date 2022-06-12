@@ -81,3 +81,21 @@ https://chromedriver.chromium.org/downloads
 3. Para verificar la versión de Chrome se ingresa a este, se selecciona las opciones ubicadas en la parte superior derecha, seguidamente en **"Help"** y por último **"About Google Chrome"**.
 
 4. Una vez instalada la versión adecuada, se descomprime el contenido.
+
+## Configuración de Repositorio en Eclipse
+
+1. Dar click derecho en el proyecto previamente creado y seleccionar la opción **"Team"** y posteriormente **"Share Proyect"**.
+
+2. Se selecciona el directorio y luego se da click en la opción **"Create Repository"**, con esto se crea el repositorio de github.
+
+3. En la esquina superior derecha se selecciona la opción **"Git Repositories"**.
+
+4. En **"Unstanged Changes"** se eligen los archivos para realizar el push y se arrastran hacia abajo a la opción **"Staged Changes"**.
+
+5. A la derecha, en **"Commit Message"** se escribe un nombre alusivo al commit que está por realizarse y se selecciona la opción **"Commit"**.
+
+6. Posteriormente se da click derecho en el proyecto, se selecciona **"Team"**, y luego en la opción **"Push Master"**.
+
+7. En el espacio para **"URL"** pegamos el link del repositorio creado previamente en github.com, vemos que varios espacios se autocompletan, y en el apartado de **"Authentication"** se completan los respectivos espacios con el correo electrónico y la contraseña; ambos utilizados en la cuenta de github.
+
+8. Se selecciona la opción **"Add All Branches Spec"** y finalmente en el botón **"Finish"**.
