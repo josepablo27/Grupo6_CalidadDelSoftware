@@ -40,8 +40,20 @@ https://www.eclipse.org/downloads/
 
 8. Seleccionar la dirección donde desea que se guarden los proyectos y escoger la opción **"Launch"**.
 
+## Instalación de las librerias de Selenium
+
+1. 
+
 ## Configurar Selenium en Eclipse
 
-1. Ingresar a eclipse y crear un nuvo proyecto.
+1. Ingresar a eclipse y crear un nuvo proyecto, seleccionando la opción de **"Java Project"**, elegiendo el nombre adecuado y por último oprimir la opción de **"Finish"**.
 
-2.
+2. Dar botón derecho sobre el proyecto y escoger la opción de **"New"** y seguidamente **"Package"** para crear un nuevo paquete.
+
+3. En la ventana se coloca el nombre que se desee y se oprime el botón de **"Finish"**.
+
+4. Nuevamente se da botón derecho al proyecto y se selecciona la opción de **"New"** y seguidamente **"Class"** para crear una nueva clase.
+
+5. Se selecciona un nombre para la clase que sería la prueba que se desea automatizar, se da click para activar la opción de **"public static void main(String[] args)"**, y se oprime el botón de **"Finish"**.
+
+6. 
