@@ -42,7 +42,13 @@ https://www.eclipse.org/downloads/
 
 ## Instalación de las librerias de Selenium
 
-1. 
+1. Entrar al siguiente enlace:
+
+https://www.selenium.dev/downloads/
+
+2. Descargar tanto el **"Server"** como la versión **"Clients and WebDriver"** para java.
+
+3. Extraer todo del archivo comprimido descargado.
 
 ## Configurar Selenium en Eclipse
 
@@ -56,4 +62,22 @@ https://www.eclipse.org/downloads/
 
 5. Se selecciona un nombre para la clase que sería la prueba que se desea automatizar, se da click para activar la opción de **"public static void main(String[] args)"**, y se oprime el botón de **"Finish"**.
 
-6. 
+6. Dar click derecho sobre el proyecto, seleccionar la opción **"Build Path"** y seguidamente **"Configure Build Path"**.
+
+7. En la ventana se seleccina el apartado de **"libraries"** que aparece en la parte superior, seguidamente se da click en **"Classpath**"", y por útlimo se elgie la opción de **"Add External JARs"** ubicada en la parte derecha de la ventana.
+
+8. Se seleccionan todas las librerias descargadas, incluidas las ubicadas en todos las carpetas dentro del archivo comprimido.
+
+9. Una vez seleccionadas todas se oprime el botón **"Apply and Close"**.
+
+## Instalación del Chrome Driver 
+
+1. Entrar al siguiente enlace:
+
+https://chromedriver.chromium.org/downloads
+
+2. Buscar la versión compatible con el Google Chrome del ordenador.
+
+3. Para verificar la versión de Chrome se ingresa a este, se selecciona las opciones ubicadas en la parte superior derecha, seguidamente en **"Help"** y por último **"About Google Chrome"**.
+
+4. Una vez instalada la versión adecuada, se descomprime el contenido.
