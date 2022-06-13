@@ -10,15 +10,15 @@ https://www.automationexercise.com/brand_products/Biba
 
 https://www.oracle.com/java/technologies/downloads/
 
-2. Una vez dentro, seleccionar la versión JDK 17 para el sistema operativo correspondeinte.
+2. Una vez dentro, seleccionar la versión JDK 17 para el sistema operativo correspondiente.
 
-3. Dar click, en el enlace para que comienze la instalación del archivo .exe.
+3. Dar click en el enlace para que comience la instalación del archivo .exe.
 
 4. Ejecutar el instalador (archivo descargado) y en la primera ventana seleccionar la opción **"Next"**.
 
 5. Seleccionar el directorio en donde se desea instalar el JDK y oprimir **"Next"**.
 
-6. Por útlimo cerrar el asistente en el botón de **"Close"** para finalizar la instalación.
+6. Por útlimo, cerrar el asistente en el botón de **"Close"** para finalizar la instalación.
 
 ## Instalación de Eclipse IDE
 
@@ -34,7 +34,7 @@ https://www.eclipse.org/downloads/
 
 5. Elegir el directorio donde se desea instalar y seleccionar la opción de **"Install"**.
 
-6. Aceptar los términos y condiciones
+6. Aceptar los términos y condiciones.
 
 7. Presionar la opción de **"Launch"**.
 
@@ -52,7 +52,7 @@ https://www.selenium.dev/downloads/
 
 ## Configurar Selenium en Eclipse
 
-1. Ingresar a eclipse y crear un nuvo proyecto, seleccionando la opción de **"Java Project"**, elegiendo el nombre adecuado y por último oprimir la opción de **"Finish"**.
+1. Ingresar a eclipse y crear un nuevo proyecto, seleccionando la opción de **"Java Project"**, elegiendo el nombre adecuado y por último oprimir la opción de **"Finish"**.
 
 2. Dar botón derecho sobre el proyecto y escoger la opción de **"New"** y seguidamente **"Package"** para crear un nuevo paquete.
 
@@ -64,9 +64,9 @@ https://www.selenium.dev/downloads/
 
 6. Dar click derecho sobre el proyecto, seleccionar la opción **"Build Path"** y seguidamente **"Configure Build Path"**.
 
-7. En la ventana se seleccina el apartado de **"libraries"** que aparece en la parte superior, seguidamente se da click en **"Classpath**"", y por útlimo se elgie la opción de **"Add External JARs"** ubicada en la parte derecha de la ventana.
+7. En la ventana se seleccina el apartado de **"libraries"** que aparece en la parte superior, seguidamente se da click en **"Classpath**"", y por útlimo se elige la opción de **"Add External JARs"** ubicada en la parte derecha de la ventana.
 
-8. Se seleccionan todas las librerias descargadas, incluidas las ubicadas en todos las carpetas dentro del archivo comprimido.
+8. Se seleccionan todas las librerías descargadas, incluidas las ubicadas en todas las carpetas dentro del archivo comprimido.
 
 9. Una vez seleccionadas todas se oprime el botón **"Apply and Close"**.
 
