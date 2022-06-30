@@ -99,3 +99,24 @@ https://chromedriver.chromium.org/downloads
 7. En el espacio para **"URL"** pegamos el link del repositorio creado previamente en github.com, vemos que varios espacios se autocompletan, y en el apartado de **"Authentication"** se completan los respectivos espacios con el correo electrónico y la contraseña; ambos utilizados en la cuenta de github.
 
 8. Se selecciona la opción **"Add All Branches Spec"** y finalmente en el botón **"Finish"**.
+
+## Apertura de la página web desde Selenium con IDE de eclipse
+
+1. Se crea una nueva clase principal en el proyecto previamente creado.
+
+2. Se añaden las siguientes librerías a la clase en cuestión:
+   - import org.openqa.selenium.WebDriver;
+   - import org.openqa.selenium.chrome.ChromeDriver;
+
+   Estas librerías son para controlar el WebDriver y ChromeDriver respectivamente.
+   
+3. Dentro del public static void main(String[] args), se escribe el siguiente comando:
+   - System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
+   Donde en el espacio **"C:\\"** se escribe la ruta donde se tiene guardada la aplicación de chromedriver.exe.
+   
+   Seguidamente se declara un nuevo objeto ChromeDriver con el siguiente comando:
+   - WebDriver driver = new ChromeDriver();
+   
+   Finalmente se especifica el link de la página web que se quiere probar con el siguiente código:
+   - driver.get("https://www.automationexercise.com/brand_products/Biba");
+   Donde se escribe el link de la página dentro del paréntesis y comillas.
