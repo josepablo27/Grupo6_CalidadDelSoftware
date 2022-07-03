@@ -40,7 +40,7 @@ https://www.eclipse.org/downloads/
 
 8. Seleccionar la dirección donde desea que se guarden los proyectos y escoger la opción **"Launch"**.
 
-## Instalación de las librerias de Selenium
+## Instalación de las librerías de Selenium
 
 1. Entrar al siguiente enlace:
 
@@ -120,3 +120,9 @@ https://chromedriver.chromium.org/downloads
    Finalmente se especifica el link de la página web que se quiere probar con el siguiente código:
    - driver.get("https://www.automationexercise.com/brand_products/Biba");
    Donde se escribe el link de la página dentro del paréntesis y comillas.
+   
+   ## Framework de automatización
+   
+   Con la siguiente captura de pantalla, se denota el correcto funcionamiento de la página web en el ambiente de pruebas.
+   
+   ![Página web funcionando en el ambiente de pruebas](https://github.com/josepablo27/Grupo6_CalidadDelSoftware/blob/a388bede308cef021a6f81e10d6c6ed4fedf058f/Pa%CC%81gina%20web%20en%20el%20ambiente%20de%20pruebas.png)
