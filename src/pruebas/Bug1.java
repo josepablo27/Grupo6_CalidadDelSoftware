@@ -12,7 +12,7 @@ public class Bug1 {
 
 		// Propiedades del WebDriver.
 
-		System.setProperty("webdriver.chrome.driver", "src\\resources\\drivers\\chromedriver12.134.exe");
+		System.setProperty("webdriver.chrome.driver", "src\\resources\\drivers\\chromedriver103.exe");
 		WebDriver driver = new ChromeDriver();
 
 		// Entrar a la pagina web.
