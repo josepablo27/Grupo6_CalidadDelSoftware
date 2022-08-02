@@ -34,7 +34,7 @@ public class Login {
 		driver.findElement(By.name("password")).sendKeys("contrasena");
 		Thread.sleep(2000);
 
-		// Omprimir el boton de "Login"
+		// Oprimir el boton de "Login"
 
 		List<WebElement> buttons = driver.findElements(By.className("btn-default"));
 		buttons.get(0).click();
@@ -44,7 +44,7 @@ public class Login {
 		try {
 			Assert.assertTrue(driver.findElement(By.tagName("b")).isEnabled());
 			System.out.println("El ingreso ha sido exitoso");
-			System.out.println("La cuenta se ha logueado correctamente");
+			System.out.println("La cuenta se ha logueada correctamente");
 		} catch (org.openqa.selenium.NoSuchElementException e02) {
 			System.out.println("Hubo un error al ingresar a la cuenta");
 			System.out.println("La cuenta no pudo loguearse de manera correcta");
