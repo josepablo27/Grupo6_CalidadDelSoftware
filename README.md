@@ -121,6 +121,24 @@ https://chromedriver.chromium.org/downloads
    - driver.get("https://www.automationexercise.com/brand_products/Biba");
    Donde se escribe el link de la página dentro del paréntesis y comillas.
    
+   ## Añadir complemento TestNG
+   
+   1. Entrar al siguiente enlace https://testng.org/doc/.
+
+   2. En **"Locations of the projects"** seleccionar la opción **"Eclipse plug-in"** .
+   
+   3. Bajar hasta **"Update sites"** y copiar el link de **"LATEST RELEASE"**, que en este caso es: https://testng.org/testng-eclipse-update-site.
+   
+   4. En el IDE de eclipse seleccionar la opción **"Help"** y posteriormente **"Install New Software"**.
+
+   5. Se debe seleccionar **"Add"**, en **"Name"** se escribe **"TestNG"** y en **"Location"** se pega el link que previamente se había copiado. Luego se da click en **"Ok"**
+
+   6.Posteriormente se selecciona la opción **"TestNG"** y se da click en **"Next"**.
+
+   7. Otra vez se da click en **"Next"** y se aceptan los términos y condiciones.
+
+   8. Finalmente se reinicia el IDE de Eclipse.
+   
    ## Framework de automatización
    
    Con la siguiente captura de pantalla, se denota el correcto funcionamiento de la página web en el ambiente de pruebas.
