@@ -3,6 +3,7 @@ package pruebas;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -32,6 +33,8 @@ public class Pago {
 		driver.findElement(By.className("btn-default")).click();
 
 		//Ingresar el producto al carrito
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,500)", "");
 		driver.findElement(By.linkText("View Product")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.className("cart")).click();
@@ -40,8 +43,10 @@ public class Pago {
 		Thread.sleep(3000);
 		
 		//Proceder pago
+	
 		driver.findElement(By.className("check_out")).click();
 		Thread.sleep(3000);
+		js.executeScript("window.scrollBy(0,700)", "");
 		driver.findElement(By.className("check_out")).click();
 		Thread.sleep(3000);
 
@@ -59,13 +64,14 @@ public class Pago {
 		driver.findElement(By.name("expiry_year")).sendKeys("2025");
 		Thread.sleep(1000);
 		driver.findElement(By.className("submit-button")).click();
+		Thread.sleep(1000);
 
 		//Verificar que la prueba pasó correctamente
 		
 		try {
-			Assert.assertTrue(driver.findElement(By.id("success_message")).isEnabled());
+			Assert.assertTrue(driver.findElement(By.className("btn-primary")).isEnabled());
 			System.out.println("El pago fue confirmado con éxito");
-		} catch (org.openqa.selenium.NoSuchElementException e02) {
+		} catch (org.openqa.selenium.NoSuchElementException e02 ) {
 			System.out.println("Hubo un error al procesar su pago");
 			System.out.println("El pago no pudo ser procesado");
 		}
