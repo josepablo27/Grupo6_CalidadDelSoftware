@@ -33,7 +33,7 @@ public class Signup {
 		driver.findElement(By.name("name")).sendKeys("Jose Pablo");
 		Thread.sleep(2000);
 		List<WebElement> emails = driver.findElements(By.name("email"));
-		emails.get(1).sendKeys("prueba7@gmail.com");
+		emails.get(1).sendKeys("prueba9@gmail.com");
 		Thread.sleep(2000);
 
 		// Omprimir el boton de "Signup"

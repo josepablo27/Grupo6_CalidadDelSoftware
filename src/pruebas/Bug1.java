@@ -3,6 +3,7 @@ package pruebas;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,16 +13,19 @@ public class Bug1 {
 
 		// Propiedades del WebDriver.
 
-		System.setProperty("webdriver.chrome.driver", "src\\resources\\drivers\\chromedriver103.exe");
+		System.setProperty("webdriver.chrome.driver", "src\\pruebas\\drivers\\chromedriver13.134.exe");
 		WebDriver driver = new ChromeDriver();
 
 		// Entrar a la pagina web.
 
 		driver.get("https://www.automationexercise.com/brand_products/Biba");
+		driver.manage().window().maximize();
 		Thread.sleep(3000);
 
 		// Entrar a los detalles del producto.
-
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,600)", "");
 		driver.findElement(By.className("fa-plus-square")).click();
 		Thread.sleep(2000);
 
