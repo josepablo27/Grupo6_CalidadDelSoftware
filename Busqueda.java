@@ -47,6 +47,13 @@ public class Busqueda {
 		Thread.sleep(2000);
 		driver.findElement(By.className("btn-default")).click();
 		Thread.sleep(4000);
+		try {
+			Assert.assertTrue(driver.findElement(By.id("submit_search")).isEnabled());
+			System.out.println("La busqueda ha sido exitosa");
+		} catch (org.openqa.selenium.NoSuchElementException e02) {
+			System.out.println("Hubo un error con la busqueda");
+			System.out.println("El articulo buscado no se encuentra en la pagina.");
+		}
 }
 }
 
